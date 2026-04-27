@@ -216,6 +216,7 @@ nav {
     gap: 1.5rem;
 }
 
+
 .galleryCard {
     position: relative;
     overflow: hidden;
@@ -255,7 +256,6 @@ nav {
 
     transition: 0.35s ease;
 }
-
 
 .galleryCard:hover .cardOverlay {
     opacity: 1;
