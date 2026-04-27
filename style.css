@@ -96,15 +96,16 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    background-color: var(--color-bg-secondary);
+    justify-content: space-around;
     width: 100%;
+    max-width: 1024px;
+    background-color: var(--color-bg-secondary);
     margin: 0 auto;
     padding: 1rem;
     position: fixed;
     z-index: 10;
     top: 0;
+    border: solid 3px red;
 }
 
 #mainBar h1 {
@@ -127,7 +128,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-
     list-style: none;
 }
 
@@ -171,7 +171,7 @@ nav {
     font-size: 2.2rem;
 }
 
-#heroDisplay{
+#heroDisplay {
     background: url(https://www.billboard.com/wp-content/uploads/2024/05/Falling-in-Reverse-cr-Jeremy-Pavia-press-2024-billboard-pro-1260.jpg?w=1024);
     min-height: 500px;
     background-repeat: no-repeat;
@@ -187,11 +187,15 @@ nav {
     grid-template-columns: 220px repeat(auto-fit, minmax(220px, 1fr));
 }
 
-#aboutSection .container{
+#aboutSection .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 
+}
+
+.aboutArticle{
+    gap: 2rem;
 }
 
 /* =========================
@@ -278,14 +282,14 @@ nav {
 #schedulesTable td {
     padding: 1rem;
     color: var(--color-text-secondary);
-    
+
 }
 
-#schedulesTable thead{
+#schedulesTable th {
     background-color: var(--color-effect-primary);
 }
 
-#infoZone{
+#infoZone {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,7 +300,7 @@ nav {
     list-style: none;
 }
 
-#infoZone ul{
+#infoZone ul {
     list-style: none;
     justify-items: center;
 }
@@ -364,7 +368,7 @@ nav {
         transform: scale(0.94);
     }
 
-    #mediaSection .container{
+    #mediaSection .container {
         display: flex;
         flex-direction: row;
         overflow-x: hidden;

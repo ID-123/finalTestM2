@@ -37,3 +37,5 @@ body
 
 ## How to run locally
 
+1. Download or clone the project.
+2. Open ´index.html´ in your browser.
