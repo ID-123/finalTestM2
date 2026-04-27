@@ -195,6 +195,8 @@ nav {
 }
 
 .aboutArticle{
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -368,12 +370,6 @@ nav {
         transform: scale(0.94);
     }
 
-    #mediaSection .container {
-        display: flex;
-        flex-direction: row;
-        overflow-x: hidden;
-        width: 100%;
-    }
 
 }
 
