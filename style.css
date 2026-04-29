@@ -313,6 +313,7 @@ nav {
 #infoZone ul {
     list-style: none;
     justify-items: center;
+    align-items: center;
 }
 
 
